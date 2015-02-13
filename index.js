@@ -11,10 +11,10 @@ module.exports = function( srcFile, directoryMap ) {
 		var dstDir = typeof directoryMap === 'function' ? directoryMap( curDir ) : directoryMap[ curDir ];
 
 		if( dstDir ) {
-			dstFile = path.resolve( dstDir, path.relative( srcDir, srcFile ) );
+			dstFile = path.resolve( dstDir, path.relative( curDir, srcFile ) );
 			break;
 		}
 	}
-	
+
 	return dstFile ? dstFile : srcFile;
 };
