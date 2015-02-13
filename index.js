@@ -4,7 +4,6 @@ module.exports = function( srcFile, directoryMap ) {
 	var dstFile;
 
 	var curDir = srcFile;
-	var srcDir = path.dirname( srcFile );
 
 	while( curDir !== '' && curDir !== path.sep ) {
 		curDir = path.dirname( curDir );
