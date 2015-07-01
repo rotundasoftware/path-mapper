@@ -1,7 +1,7 @@
 {
   "name": "path-mapper",
   "description": "Track the path of a file given a set of directory structure changes.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": {
     "name": "Rotunda Software",
     "email": "support@rotundasoftware.com"
