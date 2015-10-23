@@ -17,6 +17,6 @@ module.exports = function( srcFile, directoryMap ) {
 			break;
 		}
 	}
-	
+
 	return dstFile ? dstFile : srcFile;
 };
